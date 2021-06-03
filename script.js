@@ -18,8 +18,8 @@ console.log(id);
 
 
 var destance = 100;
-if (destance <= 25) {
-  alert("mmmmm")
+if (destance <= 100) {
+  alert("Hello")
 } else {
   alert("Welcome")
 }
@@ -32,5 +32,11 @@ if (destance <= 100) {
 }
 
 
-var destance = prompt("Where is your place?");
-console.log(destance);
+var name = prompt("Whats Your Name?");
+console.log(name);
+alert("Welcome " + name)
+
+
+
+
+document.write("<p style='color:black;'> Welcome " + name + " To our Creative HUB </p>")
